@@ -14,3 +14,5 @@ all:
 
 clean:
 	rm -f $(CASES_FILE) $(OUTPUT_FILE)
+
+.PHONY: all clean
